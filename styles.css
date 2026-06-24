@@ -1,0 +1,40 @@
+ body { background: #080B12; color: #DDE8F0; font-family: 'Roboto', sans-serif; margin: 0; padding: 40px; min-height: 100vh; }
+ 
+  #main {
+     max-width: 900px; 
+     margin: 0 auto; background-color: #121826; border: 3px solid #00E5FF; border-radius: 15px; padding: 40px; 
+     box-shadow: 0 0 25px rgba(0, 229, 255, 0.3); }
+  
+   #title { font-family: 'Orbitron', sans-serif; 
+   color: #00E5FF; 
+   text-align: center; 
+   font-size: 3rem; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 30px; text-shadow: 0 0 15px #00E5FF; } 
+   
+   #img-div { 
+    text-align: center; margin-bottom: 35px; 
+    padding: 20px; 
+    border: 2px solid #FF3131; border-radius: 10px; background-color: #0E1422; } 
+    
+    #image { 
+      display: block; 
+      max-width: 100%; 
+      height: auto;
+      margin: 0 auto; 
+      border: 3px solid #00E5FF; border-radius: 8px; } 
+      
+      #img-caption { 
+        margin-top: 15px; 
+        color: #9FB3C8; font-style: italic; letter-spacing: 1px; } 
+        
+        #tribute-info { line-height: 1.9; font-size: 1.1rem; padding: 25px; border-left: 4px solid#FF3131; background-color:#0D1320;
+        margin-bottom: 30px; } 
+        
+        #tribute-link { 
+          display: block; 
+          width: fit-content; 
+          margin: 0 auto; 
+          padding: 12px 24px; text-decoration: none; color: #00E5FF; 
+          border: 2px solid #00E5FF; border-radius: 8px; font-family: 'Orbitron', sans-serif; 
+          transition: 0.3s; }
+          
+           #tribute-link:hover { background-color: #00E5FF; color: #080B12; box-shadow: 0 0 20px #00E5FF; }
